@@ -9,7 +9,7 @@ class School
     @roster = []
   end 
   
-  def add_student(student, level)
+  def add_student(student)
     
     @roster<< student 
   end

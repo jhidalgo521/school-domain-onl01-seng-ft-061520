@@ -13,9 +13,11 @@ class School
     @student = student
     @grade = grade
     
-    if @roster.include?([grade])= []
-    @roster[grade]<< @student 
-    
+      if @roster.include?(@grade) == false 
+         @roster[grade] = []
+      else
+        @roster[grade]<< @student 
+      end
     
   end
   

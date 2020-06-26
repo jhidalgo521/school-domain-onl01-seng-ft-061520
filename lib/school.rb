@@ -23,11 +23,6 @@ class School
   
   def grade(number)
     @roster[key]
-    
-    
-    
-    
-    
   end 
   
 end
